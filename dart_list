@@ -1,0 +1,43 @@
+//LIST USE-CASES
+//UC-1
+void main (){
+  List <int> rollNumber = [19,20,76,87,98,90,91];
+  print (rollNumber);
+  
+// UC-2
+  void main (){
+  List <int> rollNumber = [19,20,76,87,98,90,91];
+  print(rollNumber[3]);
+    
+// UC-3
+    void main (){
+  List <int> rollNumber = [19,20,76,87,98,90,91];
+  rollNumber[3]=109;
+  print(rollNumber);
+      
+// UC-4
+      void main (){
+  List <int> rollNumber = [19,20,76,87,98,90,91];
+  rollNumber.add(119);
+  print(rollNumber);
+        
+// UC-5
+  void main (){
+  List <int> rollNumber = [19,20,76,87,98,90,91];
+  rollNumber.remove(109);
+  print(rollNumber);
+    
+// UC-6
+  void main (){
+  List <int> rollNumber = [19,20,76,87,98,90,91];  
+  rollNumber.removeRange(1,3);
+  print(rollNumber);
+    
+// UC-7
+  void main (){
+  List <int> rollNumber = [19,20,76,87,98,90,91];  
+  for(int i in rollNumber){
+    print(i);
+  }
+  
+}
