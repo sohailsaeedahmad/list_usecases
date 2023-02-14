@@ -1,5 +1,7 @@
 //LIST USE-CASES
 //UC-1
+// GROWABLE LIST
+
 void main (){
   List <int> rollNumber = [19,20,76,87,98,90,91];
   print (rollNumber);
@@ -39,5 +41,14 @@ void main (){
   for(int i in rollNumber){
     print(i);
   }
+  
+}
+
+//LIST USE-CASES
+//UC-8
+// FIXED LIST; it cannot be changed.
+void main (){
+  List <int> rollNumber = const [19,20,76,87,98,90,91];
+  print (rollNumber);
   
 }
